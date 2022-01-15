@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>투두메이트</title>
+
+    <style>
+        body{
+            background-color: #C4C4C4;
+            width: 390px;
+            height:844px;
+        }
+
+        #Top_bar{
+            background-color: white;
+            border: 1px solid #FF0000;
+            width:390px;
+            height:47px;
+            box-sizing: border-box;
+        }
+
+        #Profile{
+            background-color: white;
+            border: 1px solid #FF0000;
+            width: 390px;
+            height: 43px;
+            margin-top: 16px;
+        }
+
+        #Name{
+            background-color: white;
+            border: 1px solid #FF0000;
+            width: 390px;
+            height: 55px;
+            margin-top:21px;
+        }
+
+        #Name h3{
+
+            width: 346px;
+            height: 35px;
+            margin-left:22px;
+            margin-top: 10px;
+            font-weight:bolder;
+            font-size:160%;
+        }
+        #Date{
+            background-color: white;
+            border: 1px solid #FF0000;
+            width: 390px;
+            height: 55px;
+        }
+        #Weekly{
+            background-color: white;
+            border: 1px solid #FF0000;
+            width: 390px;
+            height: 61px;
+        }
+
+        .day{
+            font-size:small;
+            letter-spacing: 15px;
+            text-align: center;
+            
+        }
+
+        .days{
+            font-size:small;
+            letter-spacing: 18px;
+            text-align: center;
+            margin-top:23px;
+        }
+
+        #Todo_List{
+            background-color: white;
+            border: 1px solid #FF0000;
+            width: 390px;
+            height: 530px;
+            margin-top:16px;
+        }
+
+        ul{
+            list-style: none;
+        }
+
+        .List{
+            border: 1px solid black;
+            width:346px;
+            margin-left:20px;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <div id="Top_bar">
+        <span style="position:absolute; left:251px; top:19px; ">알림</span> 
+        <span style="position:absolute; left:293px; top:19px;">보관함</span> 
+        <span style="position:absolute; left:350px; top:19px; width:40px">메뉴</span>
+    </div>
+    
+    <div id="Profile">
+        프로필 선택
+    </div>
+
+    <div id="Name">
+        <h3>이름</h3>
+    </div>
+        
+    <div id="Date">
+        <span style="position:absolute; top:211px; left:31px; height:20px; font-size:110%; font-weight: bold;">xxxx년 x월 x주차</span> 
+        <span style="position:absolute; top:211px; left:182px; height:20px; ">갯수</span>
+        <span style="position:absolute; top:211px; left:350px; height:20px; ">주간</span>
+    </div>
+
+    <div id="Weekly">
+        <div class="day">일 월 화 수 목 금 토</div>
+        <div class="days">x x x x x x x</div>
+    </div>
+
+    <div id="Todo_List">
+        <div class="List">
+            <div style="margin-left:22px; margin-top:10px;">목표</div>
+        <ul>
+            <li>할 일</li>
+            <li>할 일</li>
+            <li>할 일</li>
+            <li>할 일</li>
+            <li>할 일</li>
+        </ul>
+        </div>
+
+        <div class="List">
+            <div style="margin-left:22px; margin-top:10px;">목표</div>
+        <ul>
+            <li>할 일</li>
+            <li>할 일</li>
+            <li>할 일</li>
+            <li>할 일</li>
+            <li>할 일</li>
+        </ul>
+        </div>
+        
+    </div>
+</body>
+</html>
