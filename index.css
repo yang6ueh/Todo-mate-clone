@@ -1,0 +1,101 @@
+body {
+	font-family: "Noto Sans KR";
+  background-color: #c4c4c4;
+  width: 390px;
+  height: 844px;
+}
+
+#Top_bar {
+	/* flex 박스를  사용하기*/
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: end;
+	padding-right: 20px;
+	gap: 10px;
+	/* flex 코드 */
+  background-color: white;
+  width: 390px;
+  height: 47px;
+  box-sizing: border-box;
+}
+
+#Profile {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  gap: 10px;
+  padding-left:20px;
+	box-sizing: border-box;
+  background-color: white;
+  border: 1px solid #ff0000;
+  width: 390px;
+  height: 43px;
+  margin-top: 16px;
+}
+
+.avatar {
+	border: 2px solid #191919 ;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	text-align: center;
+	text-justify: center;
+	line-height: 32px;
+	cursor: pointer;
+}
+
+
+#Name {
+  background-color: white;
+  border: 1px solid #ff0000;
+  width: 390px;
+  height: 55px;
+  margin-top: 21px;
+}
+
+#Name h3 {
+  width: 346px;
+  height: 35px;
+  margin-left: 22px;
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: 160%;
+}
+#Date {
+  background-color: white;
+  border: 1px solid #ff0000;
+  width: 390px;
+  height: 55px;
+}
+
+.day {
+  font-size: small;
+  letter-spacing: 15px;
+  text-align: center;
+}
+
+.days {
+  font-size: small;
+  letter-spacing: 18px;
+  text-align: center;
+  margin-top: 23px;
+}
+
+#Todo_List {
+  background-color: white;
+  border: 1px solid #ff0000;
+  width: 390px;
+  height: 530px;
+  margin-top: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+.List {
+  border: 1px solid black;
+  width: 346px;
+  margin-left: 20px;
+}
