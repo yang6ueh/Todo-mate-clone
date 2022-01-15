@@ -5,105 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>투두메이트</title>
-
-    <style>
-        body{
-            background-color: #C4C4C4;
-            width: 390px;
-            height:844px;
-        }
-
-        #Top_bar{
-            background-color: white;
-            border: 1px solid #FF0000;
-            width:390px;
-            height:47px;
-            box-sizing: border-box;
-        }
-
-        #Profile{
-            background-color: white;
-            border: 1px solid #FF0000;
-            width: 390px;
-            height: 43px;
-            margin-top: 16px;
-        }
-
-        #Name{
-            background-color: white;
-            border: 1px solid #FF0000;
-            width: 390px;
-            height: 55px;
-            margin-top:21px;
-        }
-
-        #Name h3{
-
-            width: 346px;
-            height: 35px;
-            margin-left:22px;
-            margin-top: 10px;
-            font-weight:bolder;
-            font-size:160%;
-        }
-        #Date{
-            background-color: white;
-            border: 1px solid #FF0000;
-            width: 390px;
-            height: 55px;
-        }
-        #Weekly{
-            background-color: white;
-            border: 1px solid #FF0000;
-            width: 390px;
-            height: 61px;
-        }
-
-        .day{
-            font-size:small;
-            letter-spacing: 15px;
-            text-align: center;
-            
-        }
-
-        .days{
-            font-size:small;
-            letter-spacing: 18px;
-            text-align: center;
-            margin-top:23px;
-        }
-
-        #Todo_List{
-            background-color: white;
-            border: 1px solid #FF0000;
-            width: 390px;
-            height: 530px;
-            margin-top:16px;
-        }
-
-        ul{
-            list-style: none;
-        }
-
-        .List{
-            border: 1px solid black;
-            width:346px;
-            margin-left:20px;
-        }
-        
-
-
-    </style>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="weekly.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="Top_bar">
-        <span style="position:absolute; left:251px; top:19px; ">알림</span> 
-        <span style="position:absolute; left:293px; top:19px;">보관함</span> 
-        <span style="position:absolute; left:350px; top:19px; width:40px">메뉴</span>
+        <span style="">알림</span> 
+        <span style="">보관함</span> 
+        <span style="">메뉴</span>
     </div>
     
     <div id="Profile">
-        프로필 선택
+        <div class="avatar">
+            M
+        </div>
+        <div class="avatar">
+            <div>Y</div>
+        </div>
+        <div class="avatar">
+            <div>+</div>
+        </div>
     </div>
 
     <div id="Name">
@@ -117,8 +41,6 @@
     </div>
 
     <div id="Weekly">
-        <div class="day">일 월 화 수 목 금 토</div>
-        <div class="days">x x x x x x x</div>
     </div>
 
     <div id="Todo_List">
@@ -145,5 +67,7 @@
         </div>
         
     </div>
+    <script src="index.js"></script>
+    <script src="profile.js"></script>
 </body>
 </html>
